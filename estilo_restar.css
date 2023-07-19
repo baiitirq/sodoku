@@ -1,0 +1,79 @@
+.contenedor
+{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.contenedor h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.contenedor table
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+.contiene
+{
+    width: 30px;
+    background-color: rgb(10, 102, 182);
+    padding: 30px;
+}
+.no-contiene
+{
+    width: 30px;
+    background-color: rgb(205, 222, 236);
+    padding: 30px;
+}
+.contenedor-alternativo
+{
+    display: flex;
+    justify-content: center;
+}
+.caja
+{
+    width: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 76, 160);
+    border: 1px solid rgb(11, 76, 160);
+    margin: 2px;
+}
+.resultado
+{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 100px;
+}
+/* estilo cronometro */
+* {
+    transition: all 0.3s;
+    }
+    .marco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: calibri;
+    color: black;
+    }
+    .botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+    }
+    .btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+    }
